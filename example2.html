@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Sample 2</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="example2.css">
+        <link rel="icon" href="https://www.w3schools.com/favicon.ico">
+    </head>
+      <!--  https://www.w3schools.com/  -->
+    <body>
+          <section class="navigations">
+            <div id="navbarA">
+              <a href="https://www.w3schools.com/"><img src="https://www.w3schools.com/css/w3logo.png" width="40px" height="auto"></a>
+              <div class="navdrops">
+                <div class="dropdown">
+                  <span class="visible" id="greenhover"><a href="javascript:void(0)">Tutorials</a></span>
+                  <div class="invisible"> Tutorials and References</div>
+                </div>
+                <div class="dropdown">
+                  <span class="visible" id="greenhover"><a href="javascript:void(0)">Exercises</a></span>
+                  <div class="invisible"> Exercises and Quizzes</div>
+                </div>
+                <div class="dropdown">
+                  <span class="visible" id="greenhover"><a href="javascript:void(0)">Certificates</a></span>
+                  <div class="invisible"> Certificates</div>
+                </div>
+                <div class="dropdown">
+                  <span class="visible" id="greenhover"><a href="javascript:void(0)">Services</a></span>
+                  <div class="invisible"> Our Services</div>
+                </div>
+                <search><form><input name="barsearch" id="barsearch" placeholder="Search..."></form></search>
+                <div class="dropdown">
+                  <span class="visible" id="greyhover1"><a href="javascript:void(0);"> O</a></span>
+                  <div class="invisible"> Toggle light/dark mode</div>
+                </div>
+                <div class="dropdown">
+                  <span class="visible" id="greyhover"><a href="https://www.w3schools.com/spaces/index.php"> &lt;/&gt; Spaces</a></span>
+                  <div class="invisible"> Get your own website with W3school Spaces</div>
+                </div>
+                <div class="dropdown">
+                  <span class="visible" id="greyhover"><a href="https://campus.w3schools.com/collections/course-catalog">Get Certified</a></span>
+                  <div class="invisible"> W3Schools Certificates</div>
+                </div>
+                <div class="dropdown">
+                  <span class="visible" id="sign"><a href="https://profile.w3schools.com/sign-up?redirect_url=https%3A%2F%2Fwww.w3schools.com%2F">Sign up</a></span>
+                  <div class="invisible"> Sign up to improve your learning experiences</div>
+                </div>
+                <div class="dropdown">
+                  <span class="visible" id="log"><a href="https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fwww.w3schools.com%2F">Log in</a></span>
+                  <div class="invisible"> Login to your account</div>
+                </div>
+              </div>
+            </div>
+              <ul id="navbarB">
+                  <a href="#">❮</a>
+                  <li><a href="https://www.w3schools.com/html/default.asp">html</a></li>
+                  <li><a href="https://www.w3schools.com/css/default.asp">css</a></li>
+                  <li><a href="https://www.w3schools.com/js/default.asp">javascript</a></li>
+                  <li><a href="https://www.w3schools.com/sql/default.asp">sql</a></li>
+                  <li><a href="https://www.w3schools.com/python/default.asp">python</a></li>
+                  <li><a href="https://www.w3schools.com/java/default.asp">java</a></li>
+                  <li><a href="https://www.w3schools.com/php/default.asp">php</a></li>
+                  <li><a href="https://www.w3schools.com/howto/default.asp">how to</a></li>
+                  <li><a href="https://www.w3schools.com/w3css/default.asp">w3.css</a></li>
+                  <li><a href="https://www.w3schools.com/c/index.php">c</a></li>
+                  <li><a href="https://www.w3schools.com/cpp/default.asp">c++</a></li>
+                  <li><a href="https://www.w3schools.com/cs/index.php">c#</a></li>
+                  <li><a href="https://www.w3schools.com/bootstrap/bootstrap_ver.asp">bootstrap</a></li>
+                  <li><a href="https://www.w3schools.com/react/default.asp">react</a></li>
+                  <li><a href="https://www.w3schools.com/mysql/default.asp">mysql</a></li>
+                  <li><a href="https://www.w3schools.com/jquery/default.asp">jquery</a></li>
+                  <li><a href="https://www.w3schools.com/excel/index.php">excel</a></li>
+                  <li><a href="https://www.w3schools.com/xml/default.asp">xml</a></li>
+                  <li><a href="https://www.w3schools.com/django/index.php">django</a></li>
+                  <li><a href="https://www.w3schools.com/python/numpy/default.asp">numpy</a></li>
+                  <li><a href="https://www.w3schools.com/python/pandas/default.asp">pandas</a></li>
+                  <li><a href="https://www.w3schools.com/nodejs/default.asp">nodejs</a></li>
+                  <li><a href="https://www.w3schools.com/r/default.asp">r</a></li>
+                  <li><a href="https://www.w3schools.com/typescript/index.php">typescript</a></li>
+                  <li><a href="https://www.w3schools.com/angular/default.asp">angular</a></li>
+                  <li><a href="https://www.w3schools.com/git/default.asp">git</a></li>
+                  <li><a href="https://www.w3schools.com/postgresql/index.php">postgresql</a></li>
+                  <li><a href="https://www.w3schools.com/mongodb/index.php">mongodb</a></li>
+                  <li><a href="https://www.w3schools.com/asp/default.asp">asp</a></li>
+                  <li><a href="https://www.w3schools.com/ai/default.asp">ai</a></li>
+                  <li><a href="https://www.w3schools.com/go/index.php">go</a></li>
+                  <li><a href="https://www.w3schools.com/kotlin/index.php">kotlin</a></li>
+                  <li><a href="https://www.w3schools.com/sass/default.asp">sass</a></li>
+                  <li><a href="https://www.w3schools.com/vue/index.php">vue</a></li>
+                  <li><a href="https://www.w3schools.com/dsa/index.php">dsa</a></li>
+                  <li><a href="https://www.w3schools.com/gen_ai/index.php">gen ai</a></li>
+                  <li><a href="https://www.w3schools.com/python/scipy/index.php">scipy</a></li>
+                  <li><a href="https://www.w3schools.com/aws/index.php">aws</a></li>
+                  <li><a href="https://www.w3schools.com/cybersecurity/index.php">cybersecurity</a></li>
+                  <li><a href="https://www.w3schools.com/datascience/default.asp">datascience</a></li>
+                  <a href="#">❯</a>
+              </ul>
+          </section>
+          <section class="one">
+            <h1>Learn to code</h1>
+            <p>With the world's largest web developer site.</p>
+            <input id="search" type="search" name="search" placeholder="Search our tutorials, e.g. HTML" />
+            <p><a href="https://www.w3schools.com/where_to_start.asp">Not Sure Where To Begin?</a></p>
+          </section>
+          <section class="two">
+              <div class="twoA">
+                <h1>HTML</h1>
+                <h3>The language for building web pages</h3>
+                <p class="green"><a href="https://www.w3schools.com/html/default.asp">Learn HTML</a></p>
+                <p class="yellow"><a href="https://www.w3schools.com/videos/index.php">Video Tutorial</a></p>
+                <p class="black"><a href="https://www.w3schools.com/tags/default.asp">HTML Reference</a></p>
+                <p class="pink"><a href="https://shop.w3schools.com/collections/certifications/products/html-certificate">Get Certified</a></p>
+              </div>
+              <div class="twoB">
+                  <h5>HTML Example:</h5>
+                  <div class="codes">
+                    <pre>
+                      &lt;!DOCTYPE html&gt;
+                      &lt;html&gt;
+                      &lt;head&gt;
+                      &lt;title&gt;HTML Tutorial&lt;/title&gt;
+                      &lt;/head&gt;
+                      &lt;body&gt;
+    
+                      &lt;h1&gt;This is a heading&lt;/h1&gt;
+                      &lt;p&gt;This is a paragraph./&lt;p&gt;
+    
+                      &lt;/body&gt;
+                      &lt;/html&gt;
+                    </pre>
+                  </div>
+                  <p class="green1"><a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_default_default">Try it Yourself</a></p>
+              </div>
+          </section>
+          <section class="three">
+              <div class="threeA">
+                <h1>CSS</h1>
+                <h3>The language for styling web pages</h3>
+                <p class="green"><a href="https://www.w3schools.com/css/default.asp">Learn CSS</a></p>
+                <p class="black"><a href="https://www.w3schools.com/cssref/index.php">CSS Reference</a></p>
+                <p class="pink"><a href="https://shop.w3schools.com/collections/certifications/products/css-certificate">Get Certified</a></p>
+              </div>
+              <div class="threeB">
+                  <h5>CSS Example:</h5>
+                  <div class="codes">
+                    <pre>
+                      body {
+                          background-color: lightblue;
+                        }
+                        
+                        h1 {
+                          color: white;
+                          text-align: center;
+                        }
+                        
+                        p {
+                          font-family: verdana;
+                        }
+                    </pre>
+                  </div>
+                  <p class="green1"><a href="https://www.w3schools.com/css/tryit.asp?filename=trycss_default">Try it Yourself</a></p>
+              </div>
+          </section>
+          <section class="four">
+              <div class="fourA">
+                <h1>Javascript</h1>
+                <h3>The language for programming web pages</h3>
+                <p class="green"><a href="https://www.w3schools.com/js/default.asp">Learn Javascript</a></p>
+                <p class="yellow"><a href="https://www.w3schools.com/jsref/default.asp">Javascript Reference</a></p>
+                <p class="pink"><a href="https://shop.w3schools.com/collections/certifications/products/javascript-certificate">Get Certified</a></p>
+              </div>
+              <div class="fourB">
+                  <h5>JavaScript Example:</h5>
+                  <div class="codes">
+                    <pre>
+                      &lt;button onclick="myFunction()"&gt;Click Me!
+                      &lt;/button&gt;
+    
+                      &lt;script&gt;
+                        function myFunction() {
+                          let x = document.getElementById("demo");
+                          x.style.fontSize = "25px";
+                          x.style.color = "red";
+                        }
+                        &lt;/script&gt;
+                    </pre>
+                  </div>
+                  <p class="green1"><a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_default">Try it Yourself</a></p>
+              </div>
+          </section>
+          <section class="five">
+              <div class="fiveA">
+                <h1>Python</h1>
+                <h3>A popular programming language</h3>
+                <p class="green"><a href="https://www.w3schools.com/python/default.asp">Learn Python</a></p>
+                <p class="black"><a href="https://www.w3schools.com/python/python_reference.asp">Python Reference</a></p>
+                <p class="pink"><a href="https://shop.w3schools.com/collections/certifications/products/python-certificate">Get Certified</a></p>
+              </div>
+              <div class="fiveB">
+                  <h5>Python Example:</h5>
+                  <div class="codes">
+                    <pre>
+                      if 5 > 2:
+                      print("Five is greater than two!")
+                    </pre>
+                  </div>
+                  <p class="green1"><a href="https://www.w3schools.com/python/trypython.asp?filename=demo_indentation">Try it Yourself</a></p>
+              </div>
+          </section>
+          <section class="six">
+              <div class="sixA">
+                <h1>SQL</h1>
+                <h3>A language for accessing databases</h3>
+                <p class="green"><a href="https://www.w3schools.com/sql/default.asp">Learn SQL</a></p>
+                <p class="black"><a href="https://www.w3schools.com/sql/sql_ref_keywords.asp">SQL Reference</a></p>
+                <p class="pink"><a href="https://shop.w3schools.com/collections/certifications/products/sql-certificate">Get Certified</a></p>
+              </div>
+              <div class="sixB">
+                  <h5>SQL Example:</h5>
+                  <div class="codes">
+                    <pre>
+                      SELECT * FROM Customers
+                      WHERE Country='Mexico';
+                    </pre>
+                  </div>
+                  <p class="green1"><a href="https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_where">Try it Yourself</a></p>
+              </div>
+          </section>
+          <section class="seven">
+            <div class="sevenA">
+              <h2 class="SOne">PHP</h2>
+              <p class="STwo">A web server programming language</p>
+              <p class="black1"><a href="https://www.w3schools.com/php/default.asp">Learn PHP</a></p>
+            </div>
+            <div class="sevenB">
+              <h2 class="SOne">jQuery</h2>
+              <p class="STwo">A JS library for developing web pages</p>
+              <p class="black1"><a href="https://www.w3schools.com/jquery/default.asp">Learn jQuery</a></p>
+            </div>
+            <div class="sevenC">
+              <h2 class="SOne">Java</h2>
+              <p class="STwo">A programming language</p>
+              <p class="black1"><a href="https://www.w3schools.com/java/default.asp">Learn Java</a></p>
+            </div>
+            <div class="sevenD">
+              <h2 class="SOne">C++</h2>
+              <p class="STwo">A programming language</p>
+              <p class="black1"><a href="https://www.w3schools.com/cpp/default.asp">Learn C++</a></p>
+            </div>
+            <div class="sevenE">
+              <h2 class="SOne">W3.CSS</h2>
+              <p class="STwo">A CSS framework for faster and better responsive web pages</p>
+              <p class="black1"><a href="https://www.w3schools.com/php/default.asp">Learn W3.CSS</a></p>
+            </div>
+            <div class="sevenF">
+              <h2 class="SOne">Bootstrap</h2>
+              <p class="STwo">A CSS framework for designing better web pages</p>
+              <p class="black1"><a href="https://www.w3schools.com/bootstrap/bootstrap_ver.asp">Learn Bootstrap</a></p>
+            </div>
+          </section>
+          <section class="eight">
+            <div class="eightA">
+              <a href="https://www.w3schools.com/c/index.php">C</a>
+              <a href="https://www.w3schools.com/cs/index.php">C++</a>
+            </div>
+            <div class="eightB">
+              <a href="https://www.w3schools.com/r/default.asp">R</a>
+              <a href="https://www.w3schools.com/kotlin/index.php">Kotlin</a>
+              <a href="https://www.w3schools.com/nodejs/default.asp">Node.js</a>
+              <a href="https://www.w3schools.com/react/default.asp">React</a>
+              <a href="https://www.w3schools.com/js/js_json.asp">JSon</a>
+              <a href="https://www.w3schools.com/vue/index.php">Vue</a>
+              <a href="https://www.w3schools.com/mysql/default.asp">MySQL</a>
+              <a href="https://www.w3schools.com/xml/default.asp">XML</a>
+              <a href="https://www.w3schools.com/sass/default.php">Sass</a>
+              <a href="https://www.w3schools.com/icons/default.asp">Icons</a>
+              <a href="https://www.w3schools.com/css/css_rwd_intro.asp">RWD</a>
+              <a href="https://www.w3schools.com/graphics/default.asp">Graphics</a>
+              <a href="https://www.w3schools.com/graphics/svg_intro.asp">SVG</a>
+              <a href="https://www.w3schools.com/graphics/canvas_intro.asp">Canvas</a>
+              <a href="https://www.w3schools.com/nodejs/nodejs_raspberrypi.asp">Raspberry Pi</a>
+              <a href="https://www.w3schools.com/cybersecurity/index.php">Cyber Security</a>
+              <a href="https://www.w3schools.com/colors/default.asp">Colors</a>
+              <a href="https://www.w3schools.com/git/default.asp">Git</a>
+              <a href="https://www.w3schools.com/python/matplotlib_intro.asp">Matplotlib</a>
+              <a href="https://www.w3schools.com/python/numpy/default.asp">Numpy</a>
+              <a href="https://www.w3schools.com/python/pandas/default.asp">Pandas</a>
+              <a href="https://www.w3schools.com/python/scipy/index.php">SciPy</a>
+              <a href="https://www.w3schools.com/asp/default.asp">ASP</a>
+              <a href="https://www.w3schools.com/angular/default.asp">AngularJS</a>
+              <a href="https://www.w3schools.com/appml/default.asp">AppML</a>
+              <a href="https://www.w3schools.com/go/index.php">Go</a>
+              <a href="https://www.w3schools.com/typescript/index.php">TypeScript</a>
+              <a href="https://www.w3schools.com/django/index.php">Django</a>
+              <a href="https://www.w3schools.com/mongodb/index.php">MongoDB</a>
+              <a href="https://www.w3schools.com/statistics/index.php">Statistics</a>
+              <a href="https://www.w3schools.com/datascience/default.asp">Data Science</a>
+              <a href="https://www.w3schools.com/typingspeed/default.asp">Typing Speed</a>
+              <a href="https://www.w3schools.com/howto/default.asp">HowTo</a>
+              <a href="https://www.w3schools.com/codegame/index.html">Code Game</a>
+              <a href="https://www.w3schools.com/spaces/index.php">Spaces</a>
+              <a href="https://www.w3schools.com/postgresql/index.php">postgresqlSQL</a>
+            </div>
+            <div class="eightC">
+              <a href="https://www.w3schools.com/excel/index.php">Excel</a>
+              <a href="https://www.w3schools.com/dsa/index.php">DSA - Data Structures and Algorithms</a>
+              <a href="https://www.w3schools.com/python/python_ml_getting_started.asp">Machine Learning</a>
+              <a href="https://www.w3schools.com/ai/default.asp">Artificial Intelligence</a>
+            </div>
+          </section>
+          <section class="nine">
+            <h2 class="up">Code Editor</h2>
+            <p class="center">With our online code editor, you can edit code and view the result in your browser</p>
+            <script></script>
+            <p class="green2"><a href="https://www.w3schools.com/tryit/tryit.asp?filename=tryhtml_hello">Try Frontend Editor (HTML/CSS/JS)</a></p>
+            <p class="grey"><a href="https://www.w3schools.com/tryit/trycompiler.asp?filename=demo_python">Try Backend Editor (Python/PHP/Java/C..)</a></p>
+          </section>
+          <section class="ten">
+            <h2 class="up">W3Schools Spaces</h2>
+            <p class="centerA">If you want to create your own website, check out <a id="centerA" href="https://www.w3schools.com/spaces/index.php">W3Schools Spaces</a>.</p>
+            <p class="centerA">It is free to use, and does not require any setup:</p>
+            <script></script>
+            <p class="greenB"><a href="https://www.w3schools.com/spaces/index.php">Learn More</a></p>
+          </section>
+          <section class="eleven">
+            <h2 class="upA">My Learning</h2>
+            <p class="center">Track your progress with our free "My Learning" program.</p>
+            <p class="center">Log in to your account, and start earning points!</p>
+            <script></script>
+            <p class="greenB"><a href="https://profile.w3schools.com/sign-up?redirect_url=https%3A%2F%2Fwww.w3schools.com%2F%23gsc.tab%3D0">Sign Up for Free</a></p>
+          </section>
+          <section class="twelve">
+            <h2 class="upB">Become a Plus User</h2>
+            <p class="centerA">And unlock powerful features:</p>
+            <ul id="twelve">
+              <li>Browse W3Schools without ads</li>
+              <li>Build and host Websites</li>
+              <li>Get extra credits</li>
+              <li>Priority support</li>
+            </ul>
+            <p class="greenB"><a href="https://www.w3schools.com/plus/index.php">Sign Up for Free</a></p>
+          </section>
+          <section class="thirteen">
+            <h2 class="upC">Color Picker</h2>
+            <p class="center">W3Schools' famous color picker:</p>
+            <a href="https://www.w3schools.com/colors/colors_picker.asp"><img src="\C:\Users\ayoad\code\Examples\colorpicker.webp">
+              <div>
+                <button>Visual Search</button>
+                <button>Save to Collections</button>
+                <button>Settings</button>
+              </div>  
+            </a>
+          </section>
+          <section class="fourteen">
+            <h2 class="upC Italics">Code Game</h2>
+            <p class="center italics">Help the Lynx collect pine cones!</p>
+            <a href="https://www.w3schools.com/codegame/index.html"><img src="\C:\Users\ayoad\code\Examples\statue.webp">
+              <div>
+                <button>Visual Search</button>
+                <button>Save to Collections</button>
+                <button>Settings</button>
+              </div>  
+            </a>
+            <p class="black"><a href="https://www.w3schools.com/codegame/index.html">Play Game</a></p>
+          </section> 
+          <section class="fifteen">
+            <h2>Exercises and Quizzes</h2>
+            <p>Test your skills!</p>
+            <div id="fifteen">
+              <p><a id="fifteena" href="https://www.w3schools.com/exercises/index.php">Exercises</a></p>
+              <p><a id="fifteenb" href="https://www.w3schools.com/quiztest/default.asp">Quizzes</a></p>
+            </div>
+          </section>
+          <section class="sixteen">
+            <h2>Web Templates</h2>
+            <p>Browse our selection of <strong>free</strong> responsive HTML Templates</p>
+            <a href="https://www.w3schools.com/w3css/w3css_templates.asp"><img  src="\C:\Users\ayoad\code\Examples\w3css_templates.webp" width="80%" height="370px"></a>
+            <p class="black"><a href="https://www.w3schools.com/w3css/w3css_templates.asp">Browse Templates</a></p>
+          </section>
+          <section class="seventeen">
+            <h2>Kickstart your career</h2>
+            <p>Get certified by completing a course</p>
+            <div>
+              <button class="green" id="start" name="start"><a href="https://shop.w3schools.com/collections/course-catalog">Get Started</a></button>
+              <img0 src="\C:\Users\ayoad\code\Examples\W3Schools Online Web Tutorials.html" placeholder="W3Schools Online Web Tutorials image">
+            </div>
+          </section>
+          <section class="eighteen">
+            <h2>How To Section</h2>
+            <p>Code snippets for HTML, CSS and JavaScript</p>
+            <p>For example, how to create a slideshow:</p>
+            <div class="images">
+              <img class="visibleimage" src="\C:\Users\ayoad\code\Examples\img_nature_wide.jpg"><p class="caption">Caption Text</p></img>
+              <div class="invisibleimage">
+                <img src="https://www.w3schools.com/howto/img_snow_wide.jpg"><p class="caption">Caption Two</p></img>
+                <img src="https://www.w3schools.com/howto/img_mountains_wide.jpg"><p class="caption">Caption Three</p></img>
+              </div>
+            </div>
+            <div class="bar"></div>
+            <p id="eighteen"><a href="https://www.w3schools.com/howto/default.asp">Learn How To</a></p>
+          </section>
+      </body>
+      <footer>
+          <div id="navbarC">
+            <a href="https://www.w3schools.com/"><img src="https://www.w3schools.com/css/w3logo.png" width="50px" height="auto"></a>
+            <span><a href="https://www.w3schools.com/spaces/index.php">Spaces</a></span>
+            <span><a href="https://www.w3schools.com/plus/index.php">Upgrade</a></span>
+            <span><a href="https://www.w3schools.com/plus/index.php">Ad-free</a></span>
+            <span><a href="https://campus.w3schools.com/pages/newsletter">Newsletter</a></span>
+            <span><a href="https://campus.w3schools.com/collections/certifications">Get Certified</a></span>
+            <span><a href="javascript:void(0)">Contact Us</a></span>
+          </div>
+          <div class="parts">
+              <div class="part1">
+                <h6>Top Tutorials</h6>
+                <p><a href="https://www.w3schools.com/html/default.asp">HTML Tutorial</a></p>
+                <p><a href="https://www.w3schools.com/css/default.asp">CSS Tutorial</a></p>
+                <p><a href="https://www.w3schools.com/js/default.asp">JavaScript Tutorial</a></p>
+                <p><a href="https://www.w3schools.com/howto/default.asp">How To Tutorial</a></p>
+                <p><a href="https://www.w3schools.com/sql/default.asp">SQL Tutorial</a></p>
+                <p><a href="https://www.w3schools.com/python/default.asp">Python Tutorial</a></p>
+                <p><a href="https://www.w3schools.com/w3css/default.asp">W3.CSS Tutorial</a></p>
+                <p><a href="https://www.w3schools.com/bootstrap/bootstrap_ver.asp">Bootstrap Tutorial</a></p>
+                <p><a href="https://www.w3schools.com/php/default.asp">PHP Tutorial</a></p>
+                <p><a href="https://www.w3schools.com/java/default.asp">Java Tutorial</a></p>
+                <p><a href="https://www.w3schools.com/cpp/default.asp">C++ Tutorial</a></p>
+                <p><a href="https://www.w3schools.com/jquery/default.asp">JQuery Tutorial</a></p>
+              </div>
+              <div class="part2">
+                <h6>Top References</h6>
+                <p><a href="https://www.w3schools.com/tags/default.asp">HTML Reference</a></p>
+                <p><a href="https://www.w3schools.com/cssref/index.php">CSS Reference</a></p>
+                <p><a href="https://www.w3schools.com/jsref/default.asp">JavaScript Reference</a></p>
+                <p><a href="https://www.w3schools.com/sql/sql_ref_keywords.asp">SQL Reference</a></p>
+                <p><a href="https://www.w3schools.com/python/python_reference.asp">Python Reference</a></p>
+                <p><a href="https://www.w3schools.com/w3css/w3css_references.asp">W3.CSS Reference</a></p>
+                <p><a href="https://www.w3schools.com/bootstrap/bootstrap_ref_all_classes.asp">Bootstrap Reference</a></p>
+                <p><a href="https://www.w3schools.com/php/php_ref_overview.asp">PHP Reference</a></p>
+                <p><a href="https://www.w3schools.com/colors/colors_names.asp">HTML Colors</a></p>
+                <p><a href="https://www.w3schools.com/java/java_ref_keywords.asp">Java Reference</a></p>
+                <p><a href="https://www.w3schools.com/angular/angular_ref_directives.asp">Angular Reference</a></p>
+                <p><a href="https://www.w3schools.com/jquery/jquery_ref_overview.asp">JQuery Reference</a></p>
+              </div>
+              <div class="part3">
+                <h6>Top Examples</h6>
+                <p><a href="https://www.w3schools.com/html/html_examples.asp">HTML Examples</a></p>
+                <p><a href="https://www.w3schools.com/css/css_examples.asp">CSS Examples</a></p>
+                <p><a href="https://www.w3schools.com/js/js_examples.asp">JavaScript Examples</a></p>
+                <p><a href="https://www.w3schools.com/howto/default.asp">How To Examples</a></p>
+                <p><a href="https://www.w3schools.com/sql/sql_examples.asp">SQL Examples</a></p>
+                <p><a href="https://www.w3schools.com/python/python_examples.asp">Python Examples</a></p>
+                <p><a href="https://www.w3schools.com/w3css/w3css_examples.asp">W3.CSS Examples</a></p>
+                <p><a href="https://www.w3schools.com/bootstrap/bootstrap_examples.asp">Bootstrap Examples</a></p>
+                <p><a href="https://www.w3schools.com/php/php_examples.asp">PHP Examples</a></p>
+                <p><a href="https://www.w3schools.com/java/java_examples.asp">Java Examples</a></p>
+                <p><a href="https://www.w3schools.com/xml/xml_examples.asp">XML Examples</a></p>
+                <p><a href="https://www.w3schools.com/jquery/jquery_examples.asp">JQuery Examples</a></p>
+              </div>
+              <div class="part4">
+                <h6 id="part"><a href="https://campus.w3schools.com/collections/course-catalog">Get Certified</a></h6>
+                <p><a href="https://campus.w3schools.com/collections/certifications/products/html-certificate">HTML Certificate</a></p>
+                <p><a href="https://campus.w3schools.com/collections/certifications/products/css-certificate">CSS Certificate</a></p>
+                <p><a href="https://campus.w3schools.com/collections/certifications/products/javascript-certificate">JavaScript Certificate</a></p>
+                <p><a href="https://campus.w3schools.com/collections/certifications/products/front-end-certificate">Front End Certificate</a></p>
+                <p><a href="https://campus.w3schools.com/collections/certifications/products/sql-certificate">SQL Certificate</a></p>
+                <p><a href="https://campus.w3schools.com/collections/certifications/products/python-certificate">Python Certificate</a></p>
+                <p><a href="https://campus.w3schools.com/collections/certifications/products/php-certificate">PHP Certificate</a></p>
+                <p><a href="https://campus.w3schools.com/collections/certifications/products/jquery-certificate">JQuery Certificate</a></p>
+                <p><a href="https://campus.w3schools.com/collections/certifications/products/java-certificate">Java Certificate</a></p>
+                <p><a href="https://campus.w3schools.com/collections/certifications/products/c-certificate">C++ Certificate</a></p>
+                <p><a href="https://campus.w3schools.com/collections/certifications/products/c-certificate-1">C# Certificate</a></p>
+                <p><a href="https://campus.w3schools.com/collections/certifications/products/xml-certificate">XML Certificate</a></p>
+              </div>
+          </div>
+            <div id="icons">
+                <a target="_blank" href="https://www.youtube.com/@w3schools" title="W3Schools on YouTube"><i class="fa fa-youtube"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/company/w3schools.com/" title="W3Schools on LinkedIn"><i class="fa">&#62220;</i></a>
+                <a target="_blank" href="https://discord.gg/6Z7UaRbUQM" title="Join the W3schools community on Discord"><i class="fa">&#59399;</i></a>
+                <a target="_blank" href="https://www.facebook.com/w3schoolscom/" title="W3Schools on Facebook"><i class="fa">&#59398;</i></a>
+                <a target="_blank" href="https://www.instagram.com/w3schools.com_official/" title="W3Schools on Instagram"><i class="fa">&#61805;</i></a>
+                <a target="_blank" href="/forum/default.asp" title="Forum" class="textlink">FORUM</a>
+                <a target="_blank" href="/about/default.asp" title="About W3Schools" class="textlink">ABOUT</a>
+                <a target="_blank" href="https://93d08a94.sibforms.com/serve/MUIFANcgnq870f9dSud-FqpyiNiT9Hf7Neaxms0MYk3Vls9hpjaXTEbv0c7uVF1UINWpqSDY6_DU9rogV4HkwIgRhxwVUZlYeU0k9Dk0zvK_WPtcqT1M0CwXtaF7OArmb7PqlsHk1AHCM6p4pNVtMTNOatAnIusfNWfUNfoolqkk7FLimIaFVN71kSMBOdLIwkagkBw9XybFEG0G"
+                   title="Contact us about Classroom plans" class="textlink">CLASSROOM</a>      
+            </div>
+            <p class="foot">W3Schools is optimized for learning and training. Examples might be simplified to improve reading and learning.
+                Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness
+                of all content. While using W3Schools, you agree to have read and accepted our 
+                <a href="https://www.w3schools.com/about/about_copyright.asp">terms of use</a>, 
+                <a href="https://www.w3schools.com/about/about_privacy.asp">cookie and privacy policy</a>.
+              </p>
+            <p class="footb"><a href="https://www.w3schools.com/about/about_copyright.asp">Copyright 1999-2024</a> by Refsnes Data. All Rights Reserved. <a href="https://www.w3schools.com/about/about_privacy.asp">W3Schools is Powered by W3.CSS</a>.</p>
+      </footer>
+  </html>
+
+
+        <!--<link rel="apple-touch-icon" sizes="180x180" href="https://apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="https://favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="https://favicon-16x16.png">
+        <link rel="manifest" href="https://site.webmanifest">
+        <link rel="mask-icon" href="https://safari-pinned-tab.svg" color="#04aa6d">
+        <meta name="msapplication-TileColor" content="#00a300">
+        <meta name="theme-color" content="#ffffff">
+        <link rel="preload" href="https://lib/fonts/fontawesome.woff2?14663396" as="font" type="font/woff2" crossorigin> 
+        <link rel="preload" href="https://lib/fonts/source-code-pro-v14-latin-regular.woff2" as="font" type="font/woff2" crossorigin> 
+        <link rel="preload" href="https://lib/fonts/roboto-mono-v13-latin-500.woff2" as="font" type="font/woff2" crossorigin> 
+        <link rel="preload" href="https://lib/fonts/source-sans-pro-v14-latin-700.woff2" as="font" type="font/woff2" crossorigin> 
+        <link rel="preload" href="https://lib/fonts/source-sans-pro-v14-latin-600.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="https://lib/fonts/SourceSansPro-Regular.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="https://lib/fonts/freckle-face-v9-latin-regular.woff2" as="font" type="font/woff2" crossorigin> 
+        <link rel="stylesheet" href="https://lib/topnav/main.css?v=1.0.32">
+        <link rel="stylesheet" href="https://lib/my-learning/main.css?v=1.0.26">
+        <link rel="stylesheet" href="https://lib/pathfinder/main.css?v=1.0.3">
+        <link rel="stylesheet" href="https://lib/w3schools32.css?v=1.0.1">
+        <link rel="stylesheet" href="https://plus/plans/main.css"> -->
+   <!-- </head>
+     https://www.w3schools.com/ 
+    <body>
+        <section class="one">
+          <div id="navbarA">
+            <a id="logo" href="https://www.w3schools.com" width="75px"></a>
+            <span><a href="javascript:void(0)">Tutorials</a></span>
+            <span><a href="javascript:void(0)">Exercises</a></span>
+            <span><a href="javascript:void(0)">Certificates</a></span>
+            <span><a href="javascript:void(0)">Services</a></span>
+            <search><form><input name="fsrch" id="fsrch" placeholder="Search..."></form></search>
+            <span><a href="javascript:void(0)">Toggle bar</a></span>
+            <span><a href="https://campus.w3schools.com/collections/course-catalog">Get Certified</a></span>
+            <span><a href="https://profile.w3schools.com/sign-up?redirect_url=https%3A%2F%2Fwww.w3schools.com%2F">Sign up</a></span>
+            <span><a href="https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fwww.w3schools.com%2F">Log in</a></span>
+          </div>
+            <ul id="navbarB">
+                <li><a href="https://www.w3schools.com/html/default.asp">html</a></li>
+                <li><a href="https://www.w3schools.com/css/default.asp">css</a></li>
+                <li><a href="https://www.w3schools.com/js/default.asp">javascript</a></li>
+                <li><a href="https://www.w3schools.com/sql/default.asp">sql</a></li>
+                <li><a href="https://www.w3schools.com/python/default.asp">python</a></li>
+                <li><a href="https://www.w3schools.com/java/default.asp">java</a></li>
+                <li><a href="https://www.w3schools.com/php/default.asp">php</a></li>
+                <li><a href="https://www.w3schools.com/howto/default.asp">how to</a></li>
+                <li><a href="https://www.w3schools.com/w3css/default.asp">w3.css</a></li>
+                <li><a href="https://www.w3schools.com/c/index.php">c</a></li>
+                <li><a href="https://www.w3schools.com/cpp/default.asp">c++</a></li>
+                <li><a href="https://www.w3schools.com/cs/index.php">c#</a></li>
+                <li><a href="https://www.w3schools.com/bootstrap/bootstrap_ver.asp">bootstrap</a></li>
+                <li><a href="https://www.w3schools.com/react/default.asp">react</a></li>
+                <li><a href="https://www.w3schools.com/mysql/default.asp">mysql</a></li>
+                <li><a href="https://www.w3schools.com/jquery/default.asp">jquery</a></li>
+                <li><a href="https://www.w3schools.com/excel/index.php">excel</a></li>
+                <li><a href="https://www.w3schools.com/xml/default.asp">xml</a></li>
+                <li><a href="https://www.w3schools.com/django/index.php">django</a></li>
+                <li><a href="https://www.w3schools.com/python/numpy/default.asp">numpy</a></li>
+                <li><a href="https://www.w3schools.com/python/pandas/default.asp">pandas</a></li>
+                <li><a href="https://www.w3schools.com/nodejs/default.asp">nodejs</a></li>
+                <li><a href="https://www.w3schools.com/r/default.asp">r</a></li>
+                <li><a href="https://www.w3schools.com/typescript/index.php">typescript</a></li>
+                <li><a href="https://www.w3schools.com/angular/default.asp">angular</a></li>
+                <li><a href="https://www.w3schools.com/git/default.asp">git</a></li>
+                <li><a href="https://www.w3schools.com/postgresql/index.php">postgresql</a></li>
+                <li><a href="https://www.w3schools.com/mongodb/index.php">mongodb</a></li>
+                <li><a href="https://www.w3schools.com/asp/default.asp">asp</a></li>
+                <li><a href="https://www.w3schools.com/ai/default.asp">ai</a></li>
+                <li><a href="https://www.w3schools.com/go/index.php">go</a></li>
+                <li><a href="https://www.w3schools.com/kotlin/index.php">kotlin</a></li>
+                <li><a href="https://www.w3schools.com/sass/default.asp">sass</a></li>
+                <li><a href="https://www.w3schools.com/vue/index.php">vue</a></li>
+                <li><a href="https://www.w3schools.com/dsa/index.php">dsa</a></li>
+                <li><a href="https://www.w3schools.com/gen_ai/index.php">gen ai</a></li>
+                <li><a href="https://www.w3schools.com/python/scipy/index.php">scipy</a></li>
+                <li><a href="https://www.w3schools.com/aws/index.php">aws</a></li>
+                <li><a href="https://www.w3schools.com/cybersecurity/index.php">cybersecurity</a></li>
+                <li><a href="https://www.w3schools.com/datascience/default.asp">datascience</a></li>
+                <a href="#">❯</a>
+            </ul>
+            <div id="sectionA">
+               <div>
+                  <h1>Learn to code</h1>
+                  <p>With the world's largest web developer site.</p>
+                  <input id="search" type="search" name="search" placeholder="Search our tutorials, e.g. HTML" />
+                  <p><a href="https://www.w3schools.com/where_to_start.asp">Not Sure Where To Begin?</a></p>
+               </div>
+               <span id="sectionAA"><img></span>
+            </div>
+        </section>
+        <section class="two">
+            <div class="twoA">
+              <h1>HTML</h1>
+              <p>The language for building web pages</p>
+              <p class="green"><a href="https://www.w3schools.com/html/default.asp">Learn HTML</a></p>
+              <p class="yellow"><a href="https://www.w3schools.com/videos/index.php">Video Tutorial</a></p>
+              <p class="black"><a href="https://www.w3schools.com/tags/default.asp">HTML Reference</a></p>
+              <p class="pink"><a href="https://shop.w3schools.com/collections/certifications/products/html-certificate">Get Certified</a></p>
+            </div>
+            <div class="twoB">
+                <h5>HTML Example:</h5>
+                <pre>
+                  &lt;!DOCTYPE html&gt;
+                  &lt;html&gt;
+                  &lt;head&gt;
+                  &lt;title&gt;HTML Tutorial&lt;/title&gt;
+                  &lt;/head&gt;
+                  &lt;body&gt;
+
+                  &lt;h1&gt;This is a heading&lt;/h1&gt;
+                  &lt;p&gt;This is a paragraph./&lt;p&gt;
+
+                  &lt;/body&gt;
+                  &lt;/html&gt;
+                </pre>
+                <p><a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_default_default">Try it Yourself</a></p>
+            </div>
+        </section>
+        <section class="three">
+            <div class="threeA">
+              <h1>CSS</h1>
+              <p>The language for styling web pages</p>
+              <p class="green"><a href="https://www.w3schools.com/css/default.asp">Learn CSS</a></p>
+              <p class="black"><a href="https://www.w3schools.com/cssref/index.php">CSS Reference</a></p>
+              <p class="pink"><a href="https://shop.w3schools.com/collections/certifications/products/css-certificate">Get Certified</a></p>
+            </div>
+            <div class="threeB">
+                <h5>CSS Example:</h5>
+                <pre><code>
+                    body {
+                        background-color: lightblue;
+                      }
+                      
+                      h1 {
+                        color: white;
+                        text-align: center;
+                      }
+                      
+                      p {
+                        font-family: verdana;
+                      }
+                </code></pre>
+                <p><a href="https://www.w3schools.com/css/tryit.asp?filename=trycss_default">Try it Yourself</a></p>
+            </div>
+        </section>
+        <section class="four">
+            <div class="fourA">
+              <h1>Javascript</h1>
+              <p>The language for programming web pages</p>
+              <p class="green"><a href="https://www.w3schools.com/js/default.asp">Learn CSS</a></p>
+              <p class="black"><a href="https://www.w3schools.com/jsref/default.asp">CSS Reference</a></p>
+              <p class="pink"><a href="https://shop.w3schools.com/collections/certifications/products/javascript-certificate">Get Certified</a></p>
+            </div>
+            <div class="fourB">
+                <h5>JavaScript Example:</h5>
+                <pre>
+                  &lt;button onclick="myFunction()"&gt;Click Me!
+                  &lt;/button&gt;
+
+                  &lt;script&gt;
+                    function myFunction() {
+                      let x = document.getElementById("demo");
+                      x.style.fontSize = "25px";
+                      x.style.color = "red";
+                    }
+                    &lt;/script&gt;
+                    </pre>
+                <p><a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_default">Try it Yourself</a></p>
+            </div>
+        </section>
+        <section class="five">
+            <div class="fiveA">
+              <h1>Python</h1>
+              <p>A popular programming language</p>
+              <p class="green"><a href="https://www.w3schools.com/python/default.asp">Learn CSS</a></p>
+              <p class="black"><a href="https://www.w3schools.com/python/python_reference.asp">CSS Reference</a></p>
+              <p class="pink"><a href="https://shop.w3schools.com/collections/certifications/products/python-certificate">Get Certified</a></p>
+            </div>
+            <div class="fiveB">
+                <h5>Python Example:</h5>
+                <pre><code>
+                    if 5 > 2:
+                    print("Five is greater than two!")
+                </code></pre>
+                <p><a href="https://www.w3schools.com/python/trypython.asp?filename=demo_indentation">Try it Yourself</a></p>
+            </div>
+        </section>
+        <section class="six">
+            <div class="sixA">
+              <h1>SQL</h1>
+              <p>A language for accessing databases</p>
+              <p class="green"><a href="https://www.w3schools.com/sql/default.asp">Learn CSS</a></p>
+              <p class="black"><a href="https://www.w3schools.com/sql/sql_ref_keywords.asp">CSS Reference</a></p>
+              <p class="pink"><a href="https://shop.w3schools.com/collections/certifications/products/sql-certificate">Get Certified</a></p>
+            </div>
+            <div class="sixB">
+                <h5>SQL Example:</h5>
+                <pre><code>
+                    SELECT * FROM Customers
+                    WHERE Country='Mexico';
+                </code></pre>
+                <p><a href="https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_where">Try it Yourself</a></p>
+            </div>
+        </section>
+        <section class="seven">
+          <div class="sevenA">
+            <h2 class="SOne">PHP</h2>
+            <p class="STwo">A web server programming language</p>
+            <p class="SThree"><a href="https://www.w3schools.com/php/default.asp">Learn PHP</a></p>
+          </div>
+          <div class="sevenB">
+            <h2 class="SOne">jQuery</h2>
+            <p class="STwo">A JS library for developing web pages</p>
+            <p class="SThree"><a href="https://www.w3schools.com/jquery/default.asp">Learn jQuery</a></p>
+          </div>
+          <div class="sevenC">
+            <h2 class="SOne">Java</h2>
+            <p class="STwo">A programming language</p>
+            <p class="SThree"><a href="https://www.w3schools.com/java/default.asp">Learn Java</a></p>
+          </div>
+          <div class="sevenD">
+            <h2 class="SOne">C++</h2>
+            <p class="STwo">A programming language</p>
+            <p class="SThree"><a href="https://www.w3schools.com/cpp/default.asp">Learn C++</a></p>
+          </div>
+          <div class="sevenE">
+            <h2 class="SOne">W3.CSS</h2>
+            <p class="STwo">A CSS framework for faster and better responsive web pages</p>
+            <p class="SThree"><a href="https://www.w3schools.com/php/default.asp">Learn W3.CSS</a></p>
+          </div>
+          <div class="sevenF">
+            <h2 class="SOne">Bootstrap</h2>
+            <p class="STwo">A CSS framework for designing better web pages</p>
+            <p class="SThree"><a href="https://www.w3schools.com/bootstrap/bootstrap_ver.asp">Learn Bootstrap</a></p>
+          </div>
+        </section>
+        <section class="eight">
+          <div class="eightA">
+            <a href="https://www.w3schools.com/c/index.php">C</a>
+            <a href="https://www.w3schools.com/cs/index.php">C++</a>
+          </div>
+          <div class="eightB">
+            <a href="https://www.w3schools.com/r/default.asp">R</a>
+            <a href="https://www.w3schools.com/kotlin/index.php">Kotlin</a>
+            <a href="https://www.w3schools.com/nodejs/default.asp">Node.js</a>
+            <a href="https://www.w3schools.com/react/default.asp">React</a>
+            <a href="https://www.w3schools.com/js/js_json.asp">JSon</a>
+            <a href="https://www.w3schools.com/vue/index.php">Vue</a>
+            <a href="https://www.w3schools.com/mysql/default.asp">MySQL</a>
+            <a href="https://www.w3schools.com/xml/default.asp">XML</a>
+            <a href="https://www.w3schools.com/sass/default.php">Sass</a>
+            <a href="https://www.w3schools.com/icons/default.asp">Icons</a>
+            <a href="https://www.w3schools.com/css/css_rwd_intro.asp">RWD</a>
+            <a href="https://www.w3schools.com/graphics/default.asp">Graphics</a>
+            <a href="https://www.w3schools.com/graphics/svg_intro.asp">SVG</a>
+            <a href="https://www.w3schools.com/graphics/canvas_intro.asp">Canvas</a>
+            <a href="https://www.w3schools.com/nodejs/nodejs_raspberrypi.asp">Raspberry Pi</a>
+            <a href="https://www.w3schools.com/cybersecurity/index.php">Cyber Security</a>
+            <a href="https://www.w3schools.com/colors/default.asp">Colors</a>
+            <a href="https://www.w3schools.com/git/default.asp">Git</a>
+            <a href="https://www.w3schools.com/python/matplotlib_intro.asp">Matplotlib</a>
+            <a href="https://www.w3schools.com/python/numpy/default.asp">Numpy</a>
+            <a href="https://www.w3schools.com/python/pandas/default.asp">Pandas</a>
+            <a href="https://www.w3schools.com/python/scipy/index.php">SciPy</a>
+            <a href="https://www.w3schools.com/asp/default.asp">ASP</a>
+            <a href="https://www.w3schools.com/angular/default.asp">AngularJS</a>
+            <a href="https://www.w3schools.com/appml/default.asp">AppML</a>
+            <a href="https://www.w3schools.com/go/index.php">Go</a>
+            <a href="https://www.w3schools.com/typescript/index.php">TypeScript</a>
+            <a href="https://www.w3schools.com/django/index.php">Django</a>
+            <a href="https://www.w3schools.com/mongodb/index.php">MongoDB</a>
+            <a href="https://www.w3schools.com/statistics/index.php">Statistics</a>
+            <a href="https://www.w3schools.com/datascience/default.asp">Data Science</a>
+            <a href="https://www.w3schools.com/typingspeed/default.asp">Typing Speed</a>
+            <a href="https://www.w3schools.com/howto/default.asp">HowTo</a>
+            <a href="https://www.w3schools.com/codegame/index.html">Code Game</a>
+            <a href="https://www.w3schools.com/spaces/index.php">Spaces</a>
+            <a href="https://www.w3schools.com/postgresql/index.php">postgresqlSQL</a>
+          </div>
+          <div class="eightC">
+            <a href="https://www.w3schools.com/excel/index.php">Excel</a>
+            <a href="https://www.w3schools.com/dsa/index.php">DSA - Data Structures and Algorithms</a>
+            <a href="https://www.w3schools.com/python/python_ml_getting_started.asp">Machine Learning</a>
+            <a href="https://www.w3schools.com/ai/default.asp">Artificial Intelligence</a>
+          </div>
+        </section>
+        <section class="nine">
+          <h2 class="up">Code Editor</h2>
+          <p class="center">With our online code editor, you can edit code and view the result in your browser</p>
+          <script></script>
+          <p><a href="https://www.w3schools.com/tryit/tryit.asp?filename=tryhtml_hello">Try Frontend Editor (HTML/CSS/JS)</a></p>
+          <p><a href="https://www.w3schools.com/tryit/trycompiler.asp?filename=demo_python">Try Backend Editor (Python/PHP/Java/C..)</a></p>
+        </section>
+        <section class="ten">
+          <h2 class="up">W3Schools Spaces</h2>
+          <p class="centerA">If you want to create your own website, check out <a href="https://www.w3schools.com/spaces/index.php">W3Schools Spaces</a>.</p>
+          <p class="centerA">It is free to use, and does not require any setup:</p>
+          <script></script>
+          <p class="greenB"><a href="https://www.w3schools.com/spaces/index.php">Learn More</a></p>
+        </section>
+        <section class="eleven">
+          <h2 class="upA">My Learning</h2>
+          <p class="center">Track your progress with our free "My Learning" program.</p>
+          <p class="center">Log in to your account, and start earning points!</p>
+          <script></script>
+          <p class="greenB"><a href="https://profile.w3schools.com/sign-up?redirect_url=https%3A%2F%2Fwww.w3schools.com%2F%23gsc.tab%3D0">Sign Up for Free</a></p>
+        </section>
+        <section class="twelve">
+          <h2 class="upB">Become a Plus User</h2>
+          <p class="centerA">And unlock powerful features:</p>
+          <ul>
+            <li>Browse W3Schools without ads</li>
+            <li>Build and host Websites</li>
+            <li>Get extra credits</li>
+            <li>Priority support</li>
+          </ul>
+          <p class="greenB"><a href="https://www.w3schools.com/plus/index.php">Sign Up for Free</a></p>
+        </section>
+        <section class="thirteen">
+          <h2 class="upC">Color Picker</h2>
+          <p class="center">W3Schools' famous color picker:</p>
+          <a href="https://www.w3schools.com/colors/colors_picker.asp"><img src="\C:\Users\ayoad\code\Examples\colorpicker.webp">
+            <div>
+              <button>Visual Search</button>
+              <button>Save to Collections</button>
+              <button>Settings</button>
+            </div>  
+          </a>
+        </section>
+        <section class="fourteen">
+          <h2 class="upC Italics">Code Game</h2>
+          <p class="center italics">Help the Lynx collect pine cones!</p>
+          <a href="https://www.w3schools.com/codegame/index.html"><img src="\C:\Users\ayoad\code\Examples\statue.webp">
+            <div>
+              <button>Visual Search</button>
+              <button>Save to Collections</button>
+              <button>Settings</button>
+            </div>  
+          </a>
+          <p><a href="https://www.w3schools.com/codegame/index.html">Play Game</a></p>
+        </section> 
+        <section class="fifteen">
+          <h2>Exercises and Quizzes</h2>
+          <p>Test your skills!</p>
+          <div>
+            <p><a href="https://www.w3schools.com/exercises/index.php">Exercises</a></p>
+            <p><a href="https://www.w3schools.com/quiztest/default.asp">Quizzes</a></p>
+          </div>
+        </section>
+        <section class="sixteen">
+          <h2>Web Templates</h2>
+          <p>Browse our selection of free responsive HTML Templates</p>
+          <a href="https://www.w3schools.com/w3css/w3css_templates.asp"><img  src="\C:\Users\ayoad\code\Examples\w3css_templates.webp"></a>
+          <p><a href="https://www.w3schools.com/w3css/w3css_templates.asp">Browse Templates</a></p>
+        </section>
+        <section class="seventeen">
+          <h2>Kickstart your career</h2>
+          <p>Get certified by completing a course</p>
+          <div>
+            <button id="start" name="start"><a href="https://shop.w3schools.com/collections/course-catalog">Get Started</a></button>
+            <img src="\C:\Users\ayoad\code\Examples\W3Schools Online Web Tutorials.html" placeholder="W3Schools Online Web Tutorials image">
+          </div>
+        </section>
+        <section class="eighteen">
+          <h2>How To Section</h2>
+          <p>Code snippets for HTML, CSS and JavaScript</p>
+          <p>For example, how to create a slideshow:</p>
+          <img src="\C:\Users\ayoad\code\Examples\img_nature_wide.jpg">Caption Text<img>
+          <p><a href="https://www.w3schools.com/howto/default.asp">Learn How To</a></p>
+        </section>
+    </body>
+    <footer>
+      <div class="down">
+        <div id="navbarB">
+          <a id="logo 2" href="https://www.w3schools.com" width="75px"></a>
+          <span><a href="https://www.w3schools.com/spaces/index.php">Spaces</a></span>
+          <span><a href="https://www.w3schools.com/plus/index.php">Upgrade</a></span>
+          <span><a href="https://www.w3schools.com/plus/index.php">Ad-free</a></span>
+          <span><a href="https://campus.w3schools.com/pages/newsletter">Newsletter</a></span>
+          <span><a href="https://campus.w3schools.com/collections/certifications">Get Certified</a></span>
+          <span><a href="javascript:void(0)">Contact Us</a></span>
+        </div>
+        <div class="parts">
+          <div>
+            <h6>Top Tutorials</h6>
+            <p><a href="https://www.w3schools.com/html/default.asp">HTML Tutorial</a></p>
+            <p><a href="https://www.w3schools.com/css/default.asp">CSS Tutorial</a></p>
+            <p><a href="https://www.w3schools.com/js/default.asp">JavaScript Tutorial</a></p>
+            <p><a href="https://www.w3schools.com/howto/default.asp">How To Tutorial</a></p>
+            <p><a href="https://www.w3schools.com/sql/default.asp">SQL Tutorial</a></p>
+            <p><a href="https://www.w3schools.com/python/default.asp">Python Tutorial</a></p>
+            <p><a href="https://www.w3schools.com/w3css/default.asp">W3.CSS Tutorial</a></p>
+            <p><a href="https://www.w3schools.com/bootstrap/bootstrap_ver.asp">Bootstrap Tutorial</a></p>
+            <p><a href="https://www.w3schools.com/php/default.asp">PHP Tutorial</a></p>
+            <p><a href="https://www.w3schools.com/java/default.asp">Java Tutorial</a></p>
+            <p><a href="https://www.w3schools.com/cpp/default.asp">C++ Tutorial</a></p>
+            <p><a href="https://www.w3schools.com/jquery/default.asp">JQuery Tutorial</a></p>
+          </div>
+          <div>
+            <h6>Top References</h6>
+            <p><a href="https://www.w3schools.com/tags/default.asp">HTML Reference</a></p>
+            <p><a href="https://www.w3schools.com/cssref/index.php">CSS Reference</a></p>
+            <p><a href="https://www.w3schools.com/jsref/default.asp">JavaScript Reference</a></p>
+            <p><a href="https://www.w3schools.com/sql/sql_ref_keywords.asp">SQL Reference</a></p>
+            <p><a href="https://www.w3schools.com/python/python_reference.asp">Python Reference</a></p>
+            <p><a href="https://www.w3schools.com/w3css/w3css_references.asp">W3.CSS Reference</a></p>
+            <p><a href="https://www.w3schools.com/bootstrap/bootstrap_ref_all_classes.asp">Bootstrap Reference</a></p>
+            <p><a href="https://www.w3schools.com/php/php_ref_overview.asp">PHP Reference</a></p>
+            <p><a href="https://www.w3schools.com/colors/colors_names.asp">HTML Colors</a></p>
+            <p><a href="https://www.w3schools.com/java/java_ref_keywords.asp">Java Reference</a></p>
+            <p><a href="https://www.w3schools.com/angular/angular_ref_directives.asp">Angular Reference</a></p>
+            <p><a href="https://www.w3schools.com/jquery/jquery_ref_overview.asp">JQuery Reference</a></p>
+          </div>
+          <div>
+            <h6>Top Examples</h6>
+            <p><a href="https://www.w3schools.com/html/html_examples.asp">HTML Examples</a></p>
+            <p><a href="https://www.w3schools.com/css/css_examples.asp">CSS Examples</a></p>
+            <p><a href="https://www.w3schools.com/js/js_examples.asp">JavaScript Examples</a></p>
+            <p><a href="https://www.w3schools.com/howto/default.asp">How To Examples</a></p>
+            <p><a href="https://www.w3schools.com/sql/sql_examples.asp">SQL Examples</a></p>
+            <p><a href="https://www.w3schools.com/python/python_examples.asp">Python Examples</a></p>
+            <p><a href="https://www.w3schools.com/w3css/w3css_examples.asp">W3.CSS Examples</a></p>
+            <p><a href="https://www.w3schools.com/bootstrap/bootstrap_examples.asp">Bootstrap Examples</a></p>
+            <p><a href="https://www.w3schools.com/php/php_examples.asp">PHP Examples</a></p>
+            <p><a href="https://www.w3schools.com/java/java_examples.asp">Java Examples</a></p>
+            <p><a href="https://www.w3schools.com/xml/xml_examples.asp">XML Examples</a></p>
+            <p><a href="https://www.w3schools.com/jquery/jquery_examples.asp">JQuery Examples</a></p>
+          </div>
+          <div>
+            <h6><a href="https://campus.w3schools.com/collections/course-catalog">Get Certified</a></h6>
+            <p><a href="https://campus.w3schools.com/collections/certifications/products/html-certificate">HTML Certificate</a></p>
+            <p><a href="https://campus.w3schools.com/collections/certifications/products/css-certificate">CSS Certificate</a></p>
+            <p><a href="https://campus.w3schools.com/collections/certifications/products/javascript-certificate">JavaScript Certificate</a></p>
+            <p><a href="https://campus.w3schools.com/collections/certifications/products/front-end-certificate">Front End Certificate</a></p>
+            <p><a href="https://campus.w3schools.com/collections/certifications/products/sql-certificate">SQL Certificate</a></p>
+            <p><a href="https://campus.w3schools.com/collections/certifications/products/python-certificate">Python Certificate</a></p>
+            <p><a href="https://campus.w3schools.com/collections/certifications/products/php-certificate">PHP Certificate</a></p>
+            <p><a href="https://campus.w3schools.com/collections/certifications/products/jquery-certificate">JQuery Certificate</a></p>
+            <p><a href="https://campus.w3schools.com/collections/certifications/products/java-certificate">Java Certificate</a></p>
+            <p><a href="https://campus.w3schools.com/collections/certifications/products/c-certificate">C++ Certificate</a></p>
+            <p><a href="https://campus.w3schools.com/collections/certifications/products/c-certificate-1">C# Certificate</a></p>
+            <p><a href="https://campus.w3schools.com/collections/certifications/products/xml-certificate">XML Certificate</a></p>
+          </div>
+          <div id="icons">
+              <a target="_blank" href="https://www.youtube.com/@w3schools" title="W3Schools on YouTube"><i class="fa fa-youtube"></i></a>
+              <a target="_blank" href="https://www.linkedin.com/company/w3schools.com/" title="W3Schools on LinkedIn"><i class="fa">&#62220;</i></a>
+              <a target="_blank" href="https://discord.gg/6Z7UaRbUQM" title="Join the W3schools community on Discord"><i class="fa">&#59399;</i></a>
+              <a target="_blank" href="https://www.facebook.com/w3schoolscom/" title="W3Schools on Facebook"><i class="fa">&#59398;</i></a>
+              <a target="_blank" href="https://www.instagram.com/w3schools.com_official/" title="W3Schools on Instagram"><i class="fa">&#61805;</i></a>
+              <a target="_blank" href="/forum/default.asp" title="Forum" class="textlink">FORUM</a>
+              <a target="_blank" href="/about/default.asp" title="About W3Schools" class="textlink">ABOUT</a>
+              <a target="_blank" href="https://93d08a94.sibforms.com/serve/MUIFANcgnq870f9dSud-FqpyiNiT9Hf7Neaxms0MYk3Vls9hpjaXTEbv0c7uVF1UINWpqSDY6_DU9rogV4HkwIgRhxwVUZlYeU0k9Dk0zvK_WPtcqT1M0CwXtaF7OArmb7PqlsHk1AHCM6p4pNVtMTNOatAnIusfNWfUNfoolqkk7FLimIaFVN71kSMBOdLIwkagkBw9XybFEG0G"
+                 title="Contact us about Classroom plans" class="textlink">CLASSROOM</a>      
+          </div>
+          <pre>
+            <p>W3Schools is optimized for learning and training. Examples might be simplified to improve reading and learning.
+              Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness
+              of all content. While using W3Schools, you agree to have read and accepted our <a href="https://www.w3schools.com/about/about_copyright.asp">terms of use</a>, <a href="https://www.w3schools.com/about/about_privacy.asp">cookie and privacy policy</a>.</p>
+          </pre>
+          <p><a href="https://www.w3schools.com/about/about_copyright.asp">Copyright 1999-2024</a> by Refsnes Data. All Rights Reserved. <a href="https://www.w3schools.com/about/about_privacy.asp">W3Schools is Powered by W3.CSS</a>.</p>
+        </div>
+      </div>
+    </footer>
+</html>  -->
